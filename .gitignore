@@ -1,0 +1,17 @@
+# Raw listening data is a personal export (mine or a practice subject's) — never committed.
+# Processed extracts stay out too until the publish decision (README will ship aggregates only).
+data/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Spotify API credentials (spotipy client id/secret)
+.env
+*.cache
+
+# macOS
+.DS_Store
