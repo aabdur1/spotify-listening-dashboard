@@ -1,4 +1,4 @@
-# Spotify Listening Habits — Analysis + Tableau Dashboard
+# Spotify Listening Habits Analysis + Tableau Dashboard
 
 Personal-data portfolio project: full pipeline from a raw Spotify extended
 streaming history export (JSON) to a published Tableau Public dashboard.
@@ -22,10 +22,7 @@ notebooks/        # pipeline notebooks, numbered in run order
 tableau/          # spotify_dashboard.twb — the published workbook
 ```
 
-`data/` is gitignored — raw listening history is personal data and is never
-committed. The published version of this repo will ship aggregated extracts
-only, plus a "request your own data" reproduce path (Spotify account →
-Privacy Settings → request extended streaming history).
+`data/` is gitignored. Raw listening history is personal data, so none of it is committed, and the Tableau workbook reads aggregate extracts only. To run the notebooks on your own history, request your extended streaming history from Spotify (Account, then Privacy Settings).
 
 ## Pipeline (all complete)
 
@@ -35,5 +32,3 @@ Privacy Settings → request extended streaming history).
 4. Aggregate extracts for Tableau (year-aware as of v1.3)
 5. Dashboard on Tableau Public
 
-Full README (problem, data, methods, results, limitations) is in progress —
-landing alongside the public GitHub release.
